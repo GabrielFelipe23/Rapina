@@ -1,0 +1,23 @@
+@import url('global.css');
+
+body{
+    font-family:"Poppins", sans-serif;
+}
+#container-block{
+    text-align:justify;
+    max-width:800px;
+    margin:25px auto;
+}
+#container-block p{
+    color:#555;
+}
+#container-block h1{
+    color:var(--green);
+}
+#container-block h2{
+    color:var(--color-primary-darker);
+}
+#container-block h1, h2{
+    margin:15px 0;
+}
+

@@ -1,0 +1,252 @@
+@import 'globalRubens.css';
+
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #fff;
+    color:#000;
+    margin: 0;
+}
+.todo{
+    width: 1143px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img{
+    width: 536px;
+    height: 408px;
+    border: 1px transparent;
+    margin-top: 96px;
+    float: left;
+    clear: left;
+}
+
+
+.imgtext{
+    width: 520px;
+    height: 408px;
+    margin-top: 96px;
+    margin-left: 74px;
+    float: left;
+
+}
+.imgtext h1{
+    width: 258px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    /* or 139% */
+
+    letter-spacing: -0.015em;
+
+    color: #4361EE;
+}
+
+.ocupacao p{
+    float: left;
+    margin-right: 373px;
+}
+#acom{
+    margin-top: 0;
+    margin-right: 89px;
+    margin-bottom: 10px;
+    float: left;
+}
+#escol{
+    margin-bottom: 10px;
+}
+
+.link{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #fff;
+
+
+}
+
+.link a:link, 
+      a:hover, 
+      a:visited{
+    text-decoration: none;
+    color: #000;
+}
+.link svg{
+    float: left;
+    margin-right: 10px;
+}
+.link p{
+    margin-top: 0;
+    float: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: -0.015em;
+
+    color: #4361EE;
+}
+
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .number-input {
+    margin-right: 112px;
+    border: 1px solid #000;
+    display: inline-flex;
+  }
+  
+  .number-input,
+  .number-input * {
+    box-sizing: border-box;
+    border-radius: 7px;
+  }
+  .quantity{
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  
+  .number-input button {
+    outline:none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 40px;
+    margin: 0;
+    position: relative;
+  }
+  
+  .number-input button:before,
+  .number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    width: 1rem;
+    height: 2px;
+    background-color: #212121;
+    transform: translate(-50%, -50%);
+  }
+  .number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  
+  .number-input input[type=number] {
+    max-width: 5rem;
+    padding: .5rem;
+    border: solid #ddd;
+    border-width: 0 2px;
+    font-size: 15px;
+    border-radius: 0;
+    height: 40px;
+    width: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+.data{
+    width: 289px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.btns{
+    margin-top: 70px;
+    margin-left: 22px;
+}
+#coracao{
+    border: none;
+    background: none;
+    outline: none;
+}
+#reserva{
+    width: 200px;
+    height: 40px;
+    margin-left: 41px;
+    border: 1px transparent;
+    background: #FF7A00;
+    border-radius: 100px;
+    color: #fff;
+    outline: none;
+}
+.defi{
+    width: 1143px;
+    height: 64px;
+    padding-top: 60px;
+    margin-bottom: 30px;
+    clear: both;
+}
+.defi svg{
+    margin: 10px;
+    float: left;
+}
+.defi p{
+    width: 328px;
+    height: 64px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    float: left;
+}
+.info{
+    width: 536px;
+    height: 408px;
+    float: left;
+}
+.info p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.info h4{
+    margin-bottom: 5px;
+}
+.prev{
+    width: 536px;
+    height: 408px;
+    float: left;
+}
+.prev p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.prev h4{
+    margin-bottom: 5px;
+}
+.retangulo{
+    width: 1143px;
+    height: 90px;
+    padding-top: 40px;
+    margin-bottom: 73px;
+    border: 1px transparent;
+    clear: both;
+    background: #FF5500;
+    border-radius: 15px;
+}
+.retangulo h1{
+    margin: 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    /* or 139% */
+    color: #fff;
+    letter-spacing: -0.015em;
+}

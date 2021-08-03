@@ -1,0 +1,56 @@
+@import url('global.css');
+
+#container-landing{
+    max-width:1150px;
+    margin:auto;
+}
+#container-landing .menu-bar{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#container-landing .main-container h1{
+    color:rgba(67, 97, 238, 1);
+    font-size:55px;
+    width:500px;
+    margin-bottom:20px;
+}
+#container-landing .main-container{
+    margin-top:30px;
+    background-image: url('../images/social-mobile.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+    padding:30px 0;
+}
+#container-landing .main-container p{
+    font-size:25px;
+    font-weight:500;
+    width:400px;
+    color:#f1b522;
+}
+#container-landing footer{
+    margin-top:35px;
+}
+#container-landing footer button{
+    padding:20px;
+    width:180px;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:700;
+}
+#container-landing footer button:hover{
+    filter:brightness(0.9);
+    transition:filter 250ms;
+}
+#container-landing footer button:first-child{
+    background:#f1b522;
+    color:#23286b;
+}
+#container-landing footer button:last-child{
+    margin-left:15px;
+    background:#665df5;
+    color:#fff;
+    background-image: url('../images/button-wave.svg');
+}
+

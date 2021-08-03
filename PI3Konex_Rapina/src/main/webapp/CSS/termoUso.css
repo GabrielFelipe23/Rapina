@@ -1,0 +1,68 @@
+@import url('global.css');
+
+body{
+    font-family:Helvetica;
+    letter-spacing:0.5px;
+}
+#container-landing{
+    max-width:1150px;
+    margin:auto;
+}
+#container-landing .menu-bar ul .bar{
+    width:35px;
+    height:2px;
+    margin-bottom:11px;
+    border-radius:50px;
+    background: rgba(67, 97, 238, 1);
+}
+#container-landing .introduction-term-container{
+    width:600px;
+    margin:0 auto;
+}
+#container-landing .introduction-term-container .term-content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+#container-landing .term-content p{
+    line-height:26px;
+}
+#container-landing .term-content h2{
+    margin-bottom: 9px;
+    color: rgba(67, 97, 238, 1);
+    font-size:30px;
+}
+#container-landing article{
+    margin-top:60px;
+}
+#container-landing .container-outline{
+    width:1000px;
+    margin:0 auto 25px auto;
+}
+#container-landing article h3{
+    margin-top:36px;
+    color: rgba(67, 97, 238, 1);
+}
+#container-landing article p{
+    margin:18px 0;
+    text-align: justify;
+}
+#container-landing .footer-section-copyright{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    align-content:center;
+    height:10vh;
+    font:normal 15px "Ubuntu", sans-serif;
+    border-top:1px solid #444;
+}
+.subRodape{
+    margin-top:228px;
+    color:#fff;
+    background: rgba(67, 97, 238, 1);
+}
+
+

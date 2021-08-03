@@ -1,0 +1,179 @@
+@import 'globalRubens.css';
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    background-image: linear-gradient(90deg, #fdd9d9, #e0f6f9);
+    color:#000;
+    margin: 0;
+}
+.girl{
+    height: 900px;
+    background-repeat:no-repeat;
+    background-position: bottom right; 
+    background-size: 723px 804px;
+    background-image: url("../images/Saly-22.png");
+
+}
+.espiral{
+    padding-top: 10px;
+    height: 900px;
+    background-repeat:no-repeat;
+    background-position: top left; 
+    background-image: url("../images/doodle-5 1.png");
+}
+.linha{
+    width: 1500px;
+    height: 900px;
+    background-repeat:no-repeat;
+    background-position: bottom left;
+    background-size: 300px 300px; 
+    background-image: url("../images/doodle-7 1.png");
+}
+.bloco{
+    width: 628px;
+    height: 700px;
+    margin: 100px auto 0 auto;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 0 50px;
+}
+.bloco h1{
+    margin: 106px auto 0 auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 45px;
+}
+.bloco p{
+
+    width: 487px;
+    height: 54px;
+    margin: 0 auto 55px auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+}
+.text526{
+    width: 526px;
+    height: 55px;
+    margin-bottom: 55px;
+    float: left;
+}
+.text526 input{
+    padding-left: 22px;
+    width: 441px;
+    height: 55px;
+    border-radius: 0px 5px 5px 0px;
+}
+.text279{
+    width: 255px;
+    height: 55px;
+    margin-bottom: 55px;
+    margin-right: 50px;
+    float: left;
+}
+.text279 input{
+    padding-left: 22px;
+    width: 199px;
+    height: 55px;
+    border-radius: 0px 5px 5px 0px;
+}
+.text196{
+    width: 139px;
+    height: 55px;
+    margin-bottom: 55px;
+    float: left;
+}
+.text196 input{
+    width: 137px;
+    height: 55px;
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+}
+.svg{
+    width: 18px;
+    height: 19px;
+    padding: 18px;
+    float: left;
+    background: #fff;
+    border: 1px transparent;
+    border-right: 0;
+    border-radius: 5px 0px 0px 5px;
+}
+.svgval{
+    width: 18px;
+    height: 19px;
+    padding: 18px;
+    float: left;
+    background: #fff;
+    border: 1px transparent;
+    border-left: 0;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.text196 input,
+.text279 input,
+.text526 input{
+    padding: 0;
+    background: #fff;
+    border: 1px transparent;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    letter-spacing: -0.015em;
+    
+}
+.val{
+    width: 138px;
+    height: 55px;
+    margin-bottom: 55px;
+    float: left;
+}
+.val input{
+    width: 138px;
+    height: 55px;
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+
+    padding: 0;
+    background: #fff;
+    border: 1px transparent;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    letter-spacing: -0.015em;
+    
+}
+#btn{
+    width: 526px;
+    height: 55px;
+    margin-top: 8px;
+    border: 1px solid #4361EE;
+    background: #4361EE;
+    box-sizing: border-box;
+    border-radius: 100px;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    cursor: pointer;
+}

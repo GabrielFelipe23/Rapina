@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+:root{
+    --color-background: #F0F0F7;
+    --color-primary-lighter: #9871F5;
+    --color-primary-light: #916BEA;
+    --color-primary: #8257E5;
+    --color-primary-dark: #774DD6;
+    --color-primary-darker: #6842C2;
+    --color-secundary: #04D361;
+    --color-secundary-dark: #04BF58;
+    --color-title-in-primary: #FFFFFF;
+    --color-text-in-primary: #D4C2FF;
+    --color-text-title: #32264D;
+    --color-text-complement: #9C98A6;
+    --color-text-base: #6A6180;
+    --color-line-in-white: #E6E6F0;
+    --color-input-background: #F8F8FC;
+    --color-button-text: #FFFFFF;
+    --color-box-base: #FFFFFF;
+    --color-box-footer: #FAFAFC;
+    --white:#fff;
+    --background:#f2f3f5;
+    --gray-line:#DCDDE0;
+    --text:#666666;
+    --text-highlight:#B3B9FF;
+    --title:#2E384D;
+    --red:#E83F5B;
+    --green:#4CD62B;
+    --blue:#5965E0;
+    --blue-dark:#4953B8;
+    --blue-twitter:#2AA9E0;
+
+    font-family: 'Blinker', sans-serif;
+}
+
+#container-landing{
+    min-width:980px;
+    position:relative;
+}
+#container-landing + container-page{
+    background:#f2f3f5;
+}
+.container-page{
+    background:#f5f3f4;
+}
+#container-landing .menu-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    height:90px; 
+    margin:0 128px 0 128px;
+    padding-top: 18px;
+    position:relative;
+}
+#container-landing .menu-bar ul li:nth-child(3){
+    margin-right:40px;
+}
+#container-landing .menu-bar ul i{
+    font-size:22px;
+    color:var(--blue);
+    cursor:pointer;
+}
+#container-landing .menu-bar ul li{
+    display:inline;
+    padding:0 26px;
+    color:#23286b;
+    font:600 16px "Ubuntu", sans-serif;
+    cursor:pointer;
+}
+#container-landing .menu-bar ul li:hover{
+    color:var(--blue-twitter);
+    transition-duration:250ms;
+}
+#container-landing .menu-bar .logo-icon{
+    width:200px;
+}
+
+.rodape{
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+    font-family:"Ubuntu", sans-serif;
+    bottom: 0;
+    position:relative;
+}
+.rodapeprin{
+    border-top: 1px solid #333;
+    background-color:#4361EE;
+    color: #fff;
+    
+}
+.grupos {
+    margin:auto;
+    width:90%;
+
+    }
+.grupos a:link{
+    color: #fff;
+    text-decoration: none;
+}
+.grupos a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+.grupos a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.top10 {
+    display:inline;
+    float:left;
+    width:20%;
+    margin-left: 12%;
+    }
+.top10 h3{
+    margin-bottom: 10px;
+}
+.social a{
+    margin: 0px 5px 0px 5px;
+}
+
+
+/*segundo rodape*/
+
+.subRodape{
+    border-top: 1px solid #333;
+    height: 40px;
+}
+.subRodape p{
+    margin-top: 10px;
+}
+.grupo{
+    margin:auto;
+    width:90%;
+    height: 100%;
+}
+
+.txt1{
+    display:inline;
+    float:left;
+    width:40%;
+    margin-left: 12%;
+    height: 100%;
+}
+.txt2{
+    display:inline;
+    float:right;
+    text-align: left;
+    width:24%;
+    margin-left: 12%;
+    height: 100%;
+}
+
+#container-landing .menu-bar .logo-icon{
+    width:120px;
+    border-radius:6px;
+}
+
+input{
+    outline: none;
+}
+
+
+body{
+    margin: 0;
+}
+.menulogo img{
+    width: 91px;
+    height: 59px;
+}
+.menulogoadm img{
+    width: 91px;
+    height: 59px;
+}
+#container-landingadm {
+    min-width:980px;
+    position:relative;
+    background: #4361EE;
+    box-shadow: 0px 15px 25px rgba(67, 97, 238, 0.29);
+}
+#container-landingadm .menu-baradm{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    height:90px; 
+    margin:0 40px 0 40px;
+    position:relative;
+}
+#container-landingadm .menu-baradm ul li:nth-child(3){
+    margin-right:40px;
+}
+#container-landingadm .menu-baradm ul i{
+    font-size:22px;
+    color:var(--blue);
+    cursor:pointer;
+}
+#container-landingadm .menu-baradm ul li{
+    display:inline;
+    height: 50px;
+    padding:0 26px;
+    cursor:pointer;
+}
+#container-landingadm .menu-baradm ul li:hover{
+    color:var(--blue-twitter);
+    transition-duration:250ms;
+}
+.nomeMenuadm h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 26px;
+    align-items: center;
+    letter-spacing: -0.015em;
+    
+    color: #FFFFFF;
+    float: left;
+    margin: 0;
+}
+.nomeMenuadm p{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 26px;
+    align-items: center;
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+    float: left;
+    margin: 0 5px 0 5px;
+}
+.direitamenuadm{
+    width: 470px;
+    height: 50px;
+}
+.direitamenuadm svg{
+    width: 30px;
+    height: 30px;   
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.direitamenuadm img{
+    width: 46px;
+    height: 46px;
+    float: left;   
+}
+.direitamenuadm h1{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+}
+.direitamenuadm p{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 11px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
+.infousermenuadm{
+    float: left;
+}
+#sairlogoutadm{
+    margin-left: 90px;
+    margin-right: 0;
+}
+
+.dropbtn {
+	background-color: transparent;
+	color: white;
+	padding: 16px 16px 16px 120px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+    width: 162px;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+	background-color: transparent;
+  }

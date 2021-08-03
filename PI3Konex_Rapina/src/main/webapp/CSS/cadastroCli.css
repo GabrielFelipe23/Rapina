@@ -1,0 +1,256 @@
+@import 'globalRubens.css';
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    background-image: linear-gradient(90deg, #fdd9d9, #e0f6f9);
+    color:#000;
+    margin: 0;
+}
+.Foguete{
+    width: 100%;
+    height: 877px;
+    margin: 50px auto 100px auto;
+    background-repeat:no-repeat;
+    background-position: bottom left;
+}
+.check{
+    width: 1617px;
+    height: 877px;
+    margin: auto;
+    background-repeat:no-repeat;
+    background-position: bottom right; 
+    background-image: url("../images/Tick1.png");
+}
+.bloco{
+    width: 868px;
+    height: 765px;
+    margin: 100px auto 0 666px;
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 0 50px;
+}
+.topobloco{
+    margin-top: 50px;
+}
+.topobloco svg{
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.topobloco h1{
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height, or 110% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.topobloco p{
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.5px;
+    line-height: 33px;
+    /* identical to box height, or 189% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+
+.text{
+    width: 318px;
+    height: 55px;
+    margin-top: 50px;
+    background: #fff;
+    border: 1px transparent;
+    box-sizing: border-box;
+    border-radius: 0 5px 5px 0;
+    padding-left: 22px;
+    float: left;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.svg{
+    width: 55px;
+    height: 55px;
+    margin-top: 50px;
+    background: #fff;
+    border: 1px transparent;
+    box-sizing: border-box;
+    border-radius: 5px 0 0 5px;
+    float: left;
+}
+.svg svg{
+    width: 18px;
+    height: 19px;
+    margin: 18px;
+}
+.margin{
+    width: 18px;
+    height: 1px;
+    float: left;
+}
+
+#email{
+    width: 709px;
+}
+.genero{
+    width: 318px;
+    height: 55px;
+    margin-top: 50px;
+    margin-right: 71px;
+    float: left;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.genero p{
+    margin: 0;
+}
+.genero h1{
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+
+color: #4361EE;
+}
+.radio{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.radio label{
+    padding-top: 10px;
+}
+.radio input{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    float: left;
+}
+.radio p{
+    width: 89px;
+    float: left;
+}
+.marginRadio{
+    width: 52px;
+    height: 1px;
+    float: left;
+}
+.data{
+    width: 318px;
+    height: 55px;
+    margin-top: 50px;
+    border: 1px transparent;
+    box-sizing: border-box;
+    border-radius: 5px 0 0 5px;
+    padding-left: 22px;
+    float: left;
+
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    text-align: left;
+    letter-spacing: -0.015em;
+}
+.svgdata{
+    width: 55px;
+    height: 55px;
+    margin-top: 50px;
+    background: #fff;
+    border: 1px transparent;
+    box-sizing: border-box;
+    border-radius: 0 5px 5px 0;
+    float: left;
+}
+.svgdata svg{
+    width: 18px;
+    height: 19px;
+    margin: 18px;
+}
+.terms{
+    width: 764px;
+    margin-top: 50px;
+    float: left;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.terms input{
+    width: 25px;
+    height: 25px;
+    margin: 4px;
+    margin-top: 2px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    float: left;
+}
+.terms p{
+    width: 340px;
+    margin: 0;
+    float: left;
+}
+
+#Pcond{
+    margin-right: 18px;
+}
+
+.cadastrar button{
+    width: 763px;
+    height: 55px;
+    margin-top: 50px;
+    border: 1px solid #4361EE;
+    background: #4361EE;
+    box-sizing: border-box;
+    border-radius: 100px;
+    outline: none;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    cursor: pointer;
+}
+

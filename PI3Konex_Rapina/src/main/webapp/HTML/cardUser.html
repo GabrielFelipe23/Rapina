@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cartão</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS, JAVASCRIPT">
+        <meta name="description" content="Crowd Control">
+        <meta name="author" content="konex-group">
+
+        <link rel="stylesheet" href="../CSS/cardUser.css">
+        <script src="https://kit.fontawesome.com/194a95388c.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="../images/icons/logotipo.png">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container-landing">
+            <div class="button-return">
+                <button type="button">
+                    Voltar
+                </button>
+            </div>
+
+            <div class="form-container">
+                <div class="form-block">
+                    <section class="form-data">
+                        <form action="" method="get">
+                            <div class="input-field">
+                                <div class="card">
+                                    <img src="../images/icons/card-number.png" alt="cardnumber-icon" />
+                                </div>
+                                <input type="text" name="card-number" placeholder="Digite o número do cartão" />
+                            </div>
+                            <div class="input-field">
+                                <div class="cvv">
+                                    <img src="../images/icons/cvv-number.png" alt="cvv-icon" />
+                                </div>
+                                <input type="text" name="number-cvv" placeholder="CVV" />
+                                <input type="text" name="date-block" placeholder="Validade" class="data"/>
+                                <div class="data-icon">
+                                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.15">
+                                    <path d="M14.0861 2.63586H4.27152C2.46471 2.63586 1 4.10057 1 5.90739V14.0862C1 15.893 2.46471 17.3577 4.27152 17.3577H14.0861C15.8929 17.3577 17.3576 15.893 17.3576 14.0862V5.90739C17.3576 4.10057 15.8929 2.63586 14.0861 2.63586Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M5.90723 1V4.27152" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12.4502 1V4.27152" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M1 7.54309H17.3576" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="input-field">
+                                <div class="user">
+                                    <img src="../images/icons/user-icon.png" alt="user-icon" />
+                                </div>
+                                <input type="text" name="name-person" placeholder="Nome do titular do cartão" />
+                            </div>
+                            <div class="submit-block">
+                                <input type="submit" name="submit-block" value="Salvar cartão" />
+                            </div>
+                        </form>
+                    </section>
+                </div>
+                <section class="card-user">
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle3"></div>
+
+                    <div class="data-user">
+                        <div class="box"></div>
+                        <div class="zip-code">
+                            <p>0000  0000  0000  0000</p>
+                        </div>
+                        <div class="username">
+                            <p>Gabriel Felipe S</p>
+                            <section>
+                                <h5>VALID DATES</h5>
+                                <p>XX/XX</p>
+                            </section>
+                            <section>
+                                <h5>CVV</h5>
+                                <p>XXX</p>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>

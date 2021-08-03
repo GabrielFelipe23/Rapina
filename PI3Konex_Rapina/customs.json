@@ -1,0 +1,39 @@
+{
+    "elements": {
+        "button": {
+            "attributes": {
+                "data-target": {},
+                "data-toggle": {},
+                "type": {},
+                "class": {}
+            }
+        },
+        "div": {
+            "attributes": {
+                "id": {},
+                "class": {}
+            }
+        },
+        "br": {},
+        "p": {},
+        "img": {
+            "attributes": {
+                "src": {},
+                "alt": {}
+            }
+        },
+        "i": {
+            "attributes": {
+                "class": {}
+            }
+        }
+    },
+    "attributes": {
+        "integrity": {
+            "context": "script"
+        },
+        "arial-hidden": {
+            "context": "span"
+        }
+    }
+}

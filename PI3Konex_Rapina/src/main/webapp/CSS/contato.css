@@ -1,0 +1,100 @@
+@import url('global.css');
+html{
+    height: 100%;
+}
+body{
+    background: linear-gradient(224.77deg, #E9F9FF 19.1%, rgba(188, 209, 228, 0.67) 50.09%, rgba(255, 255, 255, 0) 73.69%), #7598B8;
+}
+.page-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(255, 255, 255, 1);
+    max-width:350px;
+    margin:5px 0 0 530px;
+    padding:2rem;
+    border-radius:.8rem;
+    background: rgba(255, 255, 255, 0.6);
+}
+#container-landing{
+    max-width:1150px;
+    margin:auto;
+    
+}
+#container-landing .background-image{
+    background-image: url('../images/Group\ 407.png');
+    background-repeat: no-repeat;
+    background-size:30%;
+    background-position: 20% 93%;
+    padding:100px 0;
+}
+#container-landing .menu-bar ul .bar{
+    width:35px;
+    height:2px;
+    margin-bottom:11px;
+    border-radius:50px;
+    background: rgba(67, 97, 238, 1);
+}
+.page-container form{
+    width:100%;
+}
+.page-container h3{
+    font-weight:500;
+    margin-bottom:1rem;
+    color: rgba(45, 45, 45, 1);
+}
+.page-container form .input-block{
+    position:relative;
+}
+.page-container form .input-block input, textarea{
+    outline:none;
+    font-size:0.9rem;
+    color:var(--title);
+    padding:9px 15px;
+    width:100%;
+    border-radius:3px;
+    border:1px solid #fff;
+}
+.page-container form .input-block input:focus, textarea:focus{
+    outline:0;
+    box-shadow: 0 0 10px #9ecaed;
+    transition: box-shadow 250ms;
+}
+.page-container form .input-block input::placeholder, textarea::placeholder{
+    color: rgba(45, 45, 45, 0.3);
+}
+.page-container form .input-block:first-child{
+    margin-bottom:1.5rem;
+    margin-top:0.7rem;
+}
+.page-container form .input-block:nth-child(3){
+    margin-top:1.5rem;
+}
+.page-container form .input-block textarea{
+    font-size:1rem;
+    border:0;
+}
+.page-container form .submit-block{
+    margin-top:2rem;
+}
+.page-container form .submit-block input[type="submit"]{
+    width:100%;
+    padding:9px 15px;
+    margin-top:0.6rem;
+    border-radius:100px;
+    border:0;
+    font-size:15px;
+    cursor:pointer;
+    background: rgba(67, 97, 238, 1);
+    color:#fff;
+}
+.page-container form .submit-block input[type="submit"]:hover{
+    filter:brightness(0.9);
+    transition:filter 200ms ease-in-out;
+}
+#container-landing .subRodape{
+    color: rgba(45, 45, 45, 0.54);
+}
+
+

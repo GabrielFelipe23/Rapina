@@ -1,0 +1,147 @@
+@import url('global.css');
+
+#container-landing section img{
+    margin-left:50px;
+}
+#container-landing .theme-liberty{
+    padding:74px 0;
+}
+#container-landing .width-page{
+    max-width:1150px;
+    margin:auto;
+}
+#container-landing .background-image{
+     background-image: url('../images/rapina-header.png');
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+#container-landing .theme-liberty header{
+    margin-left:140px;
+    width:300px;
+    text-align: left;
+}
+#container-landing .theme-liberty header h1{
+    color:rgba(237, 242, 244, 1);
+    font-size:45px;
+    width:466px;
+}
+#container-landing .theme-liberty header p{
+    text-align:left;
+    color: rgba(237, 242, 244, 0.4);
+}
+#container-landing .menu-bar ul{
+    cursor:pointer;
+}
+#container-landing .menu-bar ul .bar{
+    width:35px;
+    height:2px;
+    margin-bottom:11px;
+    border-radius:50px;
+    background: rgba(67, 97, 238, 1);
+}
+#container-landing .content-wrapper{
+    margin:1rem 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+.content-wrapper .first-grid-container{
+    display:grid;
+    grid-template-columns:45vw 45vw;
+    grid-template-areas:"section div";
+    margin:47px 0;
+    position:relative;
+    grid-gap:0 35px;
+}
+.content-wrapper .first-grid-container section img,
+.content-wrapper .second-grid-container section img{
+    height:100%;
+    width:100%;
+}
+.content-wrapper .first-grid-container h1, 
+.content-wrapper .second-grid-container h1{
+    color: rgba(67, 97, 238, 1);
+    margin-bottom:25px;
+}
+.content-wrapper .first-grid-container div p,
+.content-wrapper .second-grid-container div p{
+    text-align: left;
+    width:400px;
+    color: rgba(45, 45, 45, 1);
+    font-size:25px;
+}
+.content-wrapper .second-grid-container{
+    display:grid;
+    grid-template-columns:40vw 40vw;
+    grid-template-areas:"div section";
+    position:relative;
+}
+.content-wrapper .second-grid-container div p{
+    text-align: left;
+}
+#container-landing .member-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin-top:97px;
+}
+.member-container .member-description{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+.member-container .member-description .member-photo1, 
+.member-photo2, 
+.member-photo3, 
+.member-photo4, 
+.member-photo5{
+    height:150px;
+    width:150px;
+    background:#eee;
+    border-radius:50%;
+    margin:0 auto 17px auto;
+}
+.carousel-inner .member-container .member-photo1{
+    background-image:url('../images/gabriel.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.carousel-inner .member-container .member-photo2{
+    background-image:url('../images/alex.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.carousel-inner .member-container .member-photo3{
+    background-image:url('../images/gustavo.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.carousel-inner .member-container .member-photo4{
+    background-image:url('../images/Rubens.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.carousel-inner .member-container .member-photo5{
+    background-image:url('../images/samuel.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.member-container .member-description h3, p{
+   text-align: center;
+   margin-bottom:18px;
+}
+.member-container .member-description > section{
+    width:407px;
+}
+.carousel-control-prev, .carousel-control-next{
+    background:#ccc;
+}
+#container-landing footer{
+    margin:59px auto;
+}

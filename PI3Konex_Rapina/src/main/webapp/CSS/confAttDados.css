@@ -1,0 +1,118 @@
+@import 'globalRubens.css';
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #fff;
+    color:#000;
+    margin: 0;
+}
+.todo{
+    width: 491px;
+    height: 269px;
+    padding: 50px;
+    margin: auto;
+    background: #fff;
+    text-align: center;
+    
+}
+.todo img{
+    width: 120px;
+    height: 70px;
+    margin: auto;
+}
+.todo h1{
+    margin: 0;
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+.todo p{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: rgba(45, 45, 45, 0.7);
+}
+#btnVol button, #btnSair button{
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+        
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#btnVol button{
+    margin-right: 25px;
+    background: #4EBAB5;
+}
+#btnSair button{
+    background: #4361EE;
+}
+
+.floatleft{
+    float: left;
+    margin-left: 55px;
+}
+
+#btn{
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 25px;
+    background: #4EBAB5;
+        
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#btn2{
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    background: red; 
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    cursor: pointer;
+}

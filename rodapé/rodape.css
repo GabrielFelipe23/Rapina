@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;700;800&display=swap');
+
+html,body{
+    height: 100%;
+}
+body{
+    background-color: #fff;
+    color: #000;
+    font-family: 'Blinker', sans-serif;
+    margin: 0px;
+}
+.rodape{
+    bottom: 0;
+    left: 0;
+     position: absolute;
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+}
+.rodapeprin{
+    border-top: 1px solid #333;
+    background-color:#EDF2F4;
+    
+}
+.grupos {
+    margin:auto;
+    width:90%;
+
+    }
+.grupos a:link{
+    color: #000;
+    text-decoration: none;
+}
+.grupos a:visited{
+    color: #000;
+    text-decoration: none;
+}
+.grupos a:hover{
+    color: #4361EE;
+    text-decoration: none;
+}
+
+.top10 {
+    display:inline;
+    float:left;
+    width:20%;
+    margin-left: 12%;
+    }
+.top10 h3{
+    margin-bottom: 10px;
+}
+.social a{
+    margin: 0px 5px 0px 5px;
+}
+path:hover{
+    fill: #4361EE;
+}
+
+/*segundo rodape*/
+
+.subRodape{
+    border-top: 1px solid #333;
+    height: 40px;
+}
+.subRodape p{
+    margin-top: 10px;
+}
+.grupo{
+    margin:auto;
+    width:90%;
+    height: 100%;
+}
+
+.txt1{
+    display:inline;
+    float:left;
+    width:40%;
+    margin-left: 12%;
+    height: 100%;
+}
+.txt2{
+    display:inline;
+    float:right;
+    text-align: left;
+    width:24%;
+    margin-left: 12%;
+    height: 100%;
+}

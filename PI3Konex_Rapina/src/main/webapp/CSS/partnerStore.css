@@ -1,0 +1,130 @@
+@import url('global.css');
+
+#container-landing{
+    max-width:1150px;
+    margin:auto;
+}
+.grid-container{
+    display:flex;
+    margin:10vh 0 0 100px;
+    padding:50px 0;
+    background-image:url('../images/icons/rapina.png');
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: center right;
+}
+#container-landing .menu-bar ul .bar{
+    width:35px;
+    height:2px;
+    margin-bottom:11px;
+    border-radius:50px;
+    background: rgba(67, 97, 238, 1);
+}
+.grid-container .grid-layout-partner{
+    display:flex;
+    flex-direction: column;  
+}
+.grid-container .grid-layout-partner .welcome p{
+    text-align:center;
+    width:400px;
+    color: rgba(45, 45, 45, 1);
+}
+.grid-container .grid-layout-partner article div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin:0 auto 26px auto;
+    text-align:center;
+    position:relative;
+}
+.grid-container .grid-layout-partner article div > h1{
+    font-size:40px;
+    letter-spacing:0.7px;
+    font-weight:600;
+    color: rgba(67, 97, 238, 1);
+    margin-bottom: 11px;
+}
+.grid-container .grid-layout-partner article .becomer-option{
+    margin-top:72px;
+}
+.grid-container .grid-layout-partner article .button-becomer-partner{
+    background-color:rgba(67,97,238,0.1); 
+}
+.grid-container .grid-layout-partner article h3{
+    font-size:16px;
+}
+.grid-container .grid-layout-partner article .button-becomer-partner, .button-becomer-rap{
+    padding:20px 55px;
+    border: 1px solid rgba(67, 97, 238, 1);
+    border-radius:.6rem;
+    position:relative;
+    cursor:pointer;
+    width:488px;
+}
+.button-becomer-partner p{
+    color: rgba(0, 0, 0, 0.5);
+}
+.button-becomer-partner button, .button-becomer-rap button{
+    margin-left:67.16px;
+}
+.button-becomer-partner span, .button-becomer-rap span{
+    position:absolute;
+    left:30px;
+}
+.grid-container .grid-layout-partner article button{
+    background:none;
+    width:100%;
+}
+.grid-container .grid-layout-partner article button h3, p{
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+.grid-container .grid-layout-partner article .button-becomer-rap{
+    background: rgba(67, 97, 238, 0.9);
+}
+.grid-container .grid-layout-partner article .button-becomer-rap h3, p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight:normal;
+}
+.becomer-option footer{
+    width:100%;
+    background: rgba(78, 186, 181, 1);
+    border-radius:10px;
+    margin:24px 0;
+}
+.becomer-option footer:hover{
+    filter:brightness(0.9);
+    transition:filter 200ms;
+}
+.becomer-option footer button{
+    border:1px solid #ddd;
+    padding:9px 15px;
+    border-radius:10px;
+    color:#fff;
+    width:100%;
+    font-weight:400;
+    font-size:16px;
+}
+.grid-container .grid-layout-partner article .questions-box{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+}
+.grid-layout-partner article .questions-box p{
+    color:#cccccc;
+}
+.grid-layout-partner article .questions-box span{
+    color:#5c9bf8;
+}
+.subRodape{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    background:#4361EE;
+}
+.subRodape .grupo p{
+    margin-top: -5px;
+    color: rgba(255, 255, 255, 1);
+}

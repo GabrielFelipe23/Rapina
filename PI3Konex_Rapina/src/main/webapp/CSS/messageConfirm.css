@@ -1,0 +1,47 @@
+@import url('global.css');
+
+body{
+    background: linear-gradient(224.77deg, #E9F9FF 19.1%, rgba(188, 209, 228, 0.67) 50.09%, rgba(255, 255, 255, 0) 73.69%), #7598B8;
+    background-repeat: no-repeat;
+}
+#container-landing{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+#container-landing img{
+    width:50px;
+    margin-bottom:35px;
+}
+#container-landing .message-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(255, 255, 255, 1);
+    max-width:400px;
+    padding:15px 2rem;
+    border-radius:.8rem;
+    background: rgba(255, 255, 255, 0.6);
+    width:100%;
+}
+.message-content section h3{
+    color: rgba(45, 45, 45, 0.7);
+    font-weight:bold;
+}
+.message-content section button{
+    margin-top:35px;
+    width:100%;
+    padding:9px 15px;
+    font-size:15px;
+    background: rgba(67, 97, 238, 1);
+    color:#fff;
+    border-radius:50px;
+}
+.message-content section button:hover{
+    filter:brightness(0.9);
+    transition:filter 250ms;
+}
+
+

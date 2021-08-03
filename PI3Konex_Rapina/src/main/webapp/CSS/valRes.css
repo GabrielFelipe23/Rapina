@@ -1,0 +1,162 @@
+@import 'globalRubens.css';
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #fff;
+    color:#000;
+    margin: 0;
+}
+.todo{
+    width: 494px;
+    height: 978px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+.link{
+    width: 494px;
+    height: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 79px;
+    border: 1px solid #fff;
+    clear:both;
+}
+
+.link a:link, 
+      a:hover, 
+      a:visited{
+    text-decoration: none;
+    color: #000;
+}
+.link svg{
+    float: left;
+}
+.link p{
+    width: 350px;
+    margin-top: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    float: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+.valiRes{
+    width: 395px;
+    height: 355px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 15px 7px rgba(0, 0, 0, 0.08);
+    border-radius: 25px;
+}
+.valiRes input,
+.valiRes button{
+    width: 395px;
+    height: 55px;
+    margin-bottom: 34px;
+    padding: 0;
+    border: 1px transparent;
+    border-radius: 100px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+}
+.valiRes input{
+    box-shadow: 0px 4px 15px 5px rgba(0, 0, 0, 0.08);
+}
+.valiRes button{
+    margin-bottom: 182px;
+    background: #4361EE;
+    color: #fff;
+}
+.cofRes{
+    width: 487px;
+    height: 37px;
+    margin-top: 133px;
+}
+.cofRes h3{
+    width: 237px;
+    margin-top: 0;
+    margin-right: 220px;
+    float: left;
+}
+.infos{
+    width: 487px;
+    height: 124px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+
+}
+.infos p{
+    margin: 0;
+}
+.time{
+    margin-top: 30px;
+    width: 487px;
+    height: 25px;
+}
+.time p{
+    width: 150px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 50px;
+    float: left;
+}
+.status{
+    width: 487px;
+    height: 25px;
+    margin-top: 30px;
+    clear: both;
+}
+.status p{
+    margin: 0;
+    float: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+
+}
+#valSus{
+    color: #00F763;
+}
+#valOut{
+    width: 494px;
+    height: 55px;
+    margin-top: 99px;
+    padding: 0;
+    border: transparent;
+    background: #4EBAB5;
+    border-radius: 100px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #EDF2F4;
+}

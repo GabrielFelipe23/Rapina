@@ -1,0 +1,254 @@
+@import 'globalRubens.css';
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #fff;
+    color:#000;
+    margin: 0;
+}
+.todo{
+    width: 1254px;
+    height: 1159px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 52px;
+}
+.link{
+    height: 31px;
+    margin-bottom: 53px;
+    border: 1px solid #fff;
+    clear:both;
+}
+
+.link a:link, 
+      a:hover, 
+      a:visited{
+    text-decoration: none;
+    color: #000;
+}
+.link svg{
+    margin-top: 6px;
+    float: left;
+}
+.link p{
+    width: 305px;
+    margin-top: 0;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.tabela{
+    width: 1154px;
+    height: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    background: #FFF;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 25px;
+    overflow:auto;  
+}
+
+.invisible-scrollbar::-webkit-scrollbar{
+    display: none;
+}
+
+.tabela table{
+    width: 1151px;
+    text-align: left;
+    border-collapse: collapse;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.tabela tbody tr{
+    height: 80px;
+}
+.tabela td{
+    background: none;
+}
+.selec{
+    width: 142px;
+    padding-left: 31px;
+}
+.idU{
+    width: 130px;
+}
+
+.selec button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.remetente{
+    width: 250px;
+}
+.assunto{
+    width: 450px;
+}
+.data{
+    width: 300px;
+}
+.status{
+    width: 86px;
+}
+.remetente svg{
+    float: left;
+}
+.remetente p{
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 9px;
+    float: left;
+}
+
+.selec,
+.remetente,
+.assunto,
+.data{
+    margin-right: 70px;
+}
+#status{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background:#49D983;
+}
+#visu{
+    margin-bottom: 32px;
+    color: #4361EE;
+}
+#visu svg{
+    margin-right: 12px;
+    margin-top: 8px;
+    float: left;
+}
+.info{
+    margin-top: 50px;
+    width: 1157px;
+    height: 309px;
+    padding: 50px;
+    background: #FFF;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 25px;
+}
+.info h3{
+    margin: 0;
+    float: left;
+
+    min-height: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+    .info p{
+    margin: 0;
+    float: left;
+
+    min-height: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.3);
+}
+#assuntoh3 {
+    margin-left: 120px;
+}
+#assuntop{
+    margin-right: 180px;
+    margin-left: 5px;
+}
+.mensagem{
+    width: 1151px;
+    height: 176px;
+    margin-top: 51px;
+    clear: both;
+}
+.mensagem h2{
+    margin: 25px 0 25px 0;
+    color: #4EBAB5;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.mensagem p{
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    /* or 140% */
+
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.3);
+}
+input{
+    background-color: white;
+    font-weight: normal;
+    font-size: 18px;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    width: 250px;
+    padding: 8px;
+    padding-left: 20px;
+}
+
+.btn1{
+    width: 120px;
+    height: 39px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4361ee;
+    margin-left: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn2{
+    width: 120px;
+    height: 39px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    margin-left: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn3{
+    width: 200px;
+    height: 39px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00aeef;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+}

@@ -1,0 +1,238 @@
+@import 'globalRubens.css';
+
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #fff;
+    color:#000;
+    margin: 0;
+}
+.topo{
+    height: 441px;
+    background: #4361EE;
+}
+
+.txtRap{
+width: 1400px;
+height: 350px;
+margin-left: auto;
+margin-right: auto;
+box-sizing: border-box;
+padding: 100px;
+
+color: #fff;
+}
+.txtRap p{
+    
+    width: 254px;
+    height: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 0;
+
+    opacity: 0.5;
+}
+.txtRap h1{
+width: 466px;
+height: 110px;
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 45px;
+margin-top: 0;
+}
+.Planos{
+    width: 1400px;
+    height: 673px;
+    margin-top: 116px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.Planos img{
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+}
+.Planos h1{
+    width: 249px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px; 
+}
+.Planos button{
+    width: 249px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #C4C4C4;
+    border-radius: 10px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.itensSerrana P,
+.itensRarpy P,
+.itensAçor P{
+    width: 288px;
+    height: 20px;
+    margin: 12px  auto;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+.itensSerrana P{
+    background: #f0f0f0;
+}
+.itensSerrana P:hover{
+    color: white;
+    background: #FF7A00;
+}
+
+.itensRarpy P{
+    background: #e8ecf5;
+}
+
+.itensRarpy P:hover{
+    color: white;
+    background: #2AA9E0;
+}
+
+.itensAçor P{
+    background: #ffd5af;
+}
+
+.itensAçor P:hover{
+    color: white;
+    background: #f1b522;
+}
+.Serrana{
+    width: 348px;
+    height: 500px;
+    margin-top: 86.5px;
+    margin-left: 128px;
+    margin-right: 44px;
+    float: left;
+    background: #FFFFFF;
+    border: 2px solid #444444;
+    border-radius: 25px;
+}
+.Serrana button,
+.Rarpy button,
+.Açor button{
+    color: #FFF;
+    border: transparent;
+    background: #444444;
+    background: #4361EE;
+    border-radius: 100px;
+}
+.Serrana button:hover{
+    color: white;
+    background-color: #444444;
+}
+
+.Rarpy button:hover{
+    color: white;
+    background-color: #2AA9E0;
+}
+
+.Açor button:hover{
+    color: white;
+    background-color: #FF7A00;
+}
+
+.Rarpy{
+    width: 348px;
+    height: 673px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    background: #FFFFFF;
+    border: 2px solid #4361EE;
+    border-radius: 25px;
+}
+    
+.Açor{
+    width: 348px;
+    height: 550px;
+    margin-top: 61.5px;
+    margin-left: 44px;
+    margin-right: 128px;
+    float: left;
+    background: #FFFFFF;
+    border: 2px solid #FF7A00;
+    border-radius: 25px;
+}
+
+.valor{
+    width: 170px;
+    margin-left: auto;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 23px;
+    text-align: center;
+    align-items: center;
+    height: 40px;
+}
+.valor p{
+    height: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    float: left;
+}
+.valor h1{
+    width: 98px;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 25px;
+    float: left;
+}
+.retangulo{
+    width: 1144px;
+    height: 81px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 163px;
+    margin-bottom: 65px;
+    background: #FF7E27;
+    border-radius: 10px;
+}
+.retangulo h1{
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+p:hover{
+    color: #4361EE;
+}

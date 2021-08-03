@@ -1,0 +1,46 @@
+@import url('global.css');
+
+
+#only-screen .menu-bar .logo-icon{
+    width:120px;
+}
+#only-screen .menu-bar{
+    margin:15px 0 100px 0;
+}
+#only-screen .menu-bar, .outline-color{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.outline-color h2{
+    color:rgba(67, 97, 238, 1);
+}
+.outline-color p{
+    text-align:center;
+    margin:10px 0 60px 0;
+    font-size:18px;
+    color:#2D2D2D;
+}
+.outline-color footer button{
+    margin:0 18px;
+    padding:20px;
+    border:0;
+    border-radius:6px;
+    color:#fff;
+    font-size:16px;
+}
+.outline-color footer button:hover{
+    filter:brightness(0.9);
+    box-shadow:0px 4px 16px rgba(0,0,0,0.2);
+    transition:filter 200ms, box-shadow 250ms;
+}
+.outline-color footer button:first-child{
+    background:var(--blue);
+}
+.outline-color footer button:nth-child(2){
+    background:var(--green);
+}
+.outline-color footer button:last-child{
+    background:var(--red);
+}

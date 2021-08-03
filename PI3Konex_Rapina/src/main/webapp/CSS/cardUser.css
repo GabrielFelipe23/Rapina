@@ -1,0 +1,188 @@
+@import url('global.css');
+
+#container-landing{
+    max-width:1150px;
+    margin:auto;
+}
+#container-landing .button-return{
+    margin:57px 0 82px 0;
+}
+#container-landing .button-return button{
+    background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    margin:20px 0 50px 0;
+    padding:9px 18px;
+    border-radius:1000px;
+    color:#fff;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    outline:none;
+    position:relative;
+} 
+#container-landing .button-return button:before{
+    content: '';
+    border-radius: 1000px;
+    min-width: calc(100px + 12px);
+    min-height: calc(60px + 12px);
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 40px rgba(0,255,203,.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+}
+#container-landing .button-return button:hover, button:focus{
+    transform: translateY(-6px);
+}
+#container-landing .button-return button:hover::before, 
+#container-landing .button-return button:focus::before {
+  opacity: 1;
+}
+#container-landing .button-return button{
+    font-size:22px;
+}
+.form-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-container .form-block .form-data{
+    padding:2rem;
+    border-radius:25px;
+    background: #F9F9F9;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1);
+    border: 3px solid #fff;
+    margin-bottom:70px;
+}
+.form-container .form-block .form-data .input-field{
+    height:38px;
+}
+.form-container .input-field img{
+    margin: 10px 0 0 18px;
+}
+.form-container .input-field .data{
+    width:10px;
+}
+.form-container .data-icon svg{
+    margin:10px 18px 0 0;
+}
+.form-container .form-block .form-data .input-field .data-icon{
+    float:right;
+    width:10%;
+    height:100%;
+    background:#fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.form-container .form-block .form-data .input-field .card,
+.form-container .form-block .form-data .input-field .cvv,
+.form-container .form-block .form-data .input-field .user{
+    float:left;
+    width:10%;
+    height:100%;
+    background:#fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.form-container .form-block .form-data .input-field:nth-child(2){
+    display: flex;
+    flex-direction:row;
+}
+.form-container .form-block .form-data .input-field input::placeholder{
+    color:rgba(0, 0, 0, 0.3);
+}
+.form-container .form-block .form-data .input-field{
+    margin:22.9px 0;
+}
+.form-container .form-block .form-data .input-field input{
+    width:90%;
+    height:100%;
+    float:right;
+    padding:9px 15px;
+    background: rgba(255, 255, 255, 1);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:0;
+}
+.form-container .form-block .submit-block input{
+    width:100%;
+    padding:9px 15px;
+    border-radius:5px;
+    border:1px solid #ccc;
+    cursor:pointer;
+    background:#4361EE;
+    color:#fff;
+    font-size:15px;
+}
+.form-container .form-block .submit-block input:hover{
+    filter:brightness(0.9);
+    transition:filter 200ms;
+}
+.card-user{
+    padding:2rem;
+    border:0;
+    mix-blend-mode: soft-light;
+    border-radius: 40px;
+    width:395px;
+    color:#fff;
+    background-image: url('../images/carduser-color.png');
+    background-position: center;
+    background-size:100vh;
+    box-shadow: 0px 25px 25px rgba(67, 97, 238, 0.35);
+    position:relative;
+}
+.card-user .circle1{
+    height:173px;
+    width:173px;
+    background: rgba(30, 63, 155, 0.25);
+    border-radius:70px;
+    border:0;
+    position:absolute;
+    top:0;
+    left:130px;
+}
+.card-user .circle2{
+    height:173px;
+    width:173px;
+    background: rgba(30, 63, 155, 0.25);
+    border-radius:70px;
+    border:0;
+    position:absolute;
+    left:0;
+}
+.card-user .circle3{
+    height:109px;
+    width:109px;
+    background: rgba(30, 63, 155, 0.25);
+    border-radius:70px;
+    border:0;
+    position:absolute;
+    bottom:0;
+    left:130px;
+}
+.card-user .box{
+    width:58px;
+    height:42px;
+    background: rgba(255, 255, 255, 0.5);
+    border:0;
+    border-radius: 15px;
+    margin:30px 0 20px 0;
+}
+.card-user .username{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin:15px 0 10px 0;
+    position:relative;
+}
+.card-user .username section h5{
+    font-size:10px;
+    font-weight:normal;
+    margin-bottom:5px;
+}
+
+
+

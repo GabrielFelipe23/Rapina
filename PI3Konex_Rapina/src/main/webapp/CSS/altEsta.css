@@ -1,0 +1,309 @@
+@import 'globalRubens.css';
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #fff;
+    color:#000;
+    margin: 0;
+}
+.todo{
+    width: 1130px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bloco{
+    width: 1120px;
+    height: 817px;
+    margin: 48px auto 48px auto;
+    box-sizing: border-box;
+    background: #FFF;
+    box-shadow: 0px 6px 20px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 25px;
+    padding: 50px;
+    
+}
+
+.link{
+    height: 31px;
+    clear:both;
+}
+
+.link a:link, 
+      a:hover, 
+      a:visited{
+    text-decoration: none;
+    color: #000;
+}
+.link svg{
+    float: left;
+}
+.link p{
+    width: 305px;
+    margin-top: 0;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+
+.status{
+    width: 247px;
+    margin-top: 50px;
+    float: left;
+
+}
+.status p{
+    margin: 0px;
+    margin-top: 3px;
+    margin-left: 27px;
+    float: left;
+
+    color: #E5E5E5;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    align-items: center;
+    letter-spacing: -0.015em;
+
+}
+.bola{
+    width: 43px;
+    height: 43px;
+    background: #49D983;
+    border-radius: 50%;
+    float: left;
+}
+.text{
+    width: 318px;
+    height: 55px;
+    margin-top: 50px;
+    border: none;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 0 5px 5px 0;
+    padding-left: 22px;
+    float: left;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.text270{
+    width: 215px;
+    height: 55px;
+    border: none;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 0 5px 5px 0;
+    padding-left: 22px;
+    float: left;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.text373{
+    width: 318px;
+    height: 55px;
+    
+    border: none;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 0 5px 5px 0;
+    padding-left: 22px;
+    float: left;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.text697{
+    width: 636px;
+    height: 55px;
+    border: none;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 0 5px 5px 0;
+    padding-left: 22px;
+    float: left;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.sombra270{
+    width: 270px;
+    height: 55px;
+    margin-top: 50px;
+    float: left;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 0 5px 5px 0;
+}
+.sombra373{
+    width: 377px;
+    height: 55px;
+    margin-top: 50px;
+    float: left;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 0 5px 5px 0;
+}
+
+.sombra697{
+    width: 691px;
+    height: 55px;
+    margin-top: 50px;
+    float: left;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 0 5px 5px 0;
+}
+
+.svg{
+    width: 55px;
+    height: 55px;
+    border: none;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px 0 0 5px;
+    float: left;
+}
+.svg svg{
+    width: 18px;
+    height: 19px;
+    margin: 18px;
+}
+.margin{
+    width: 50px;
+    height: 1px;
+    float: left;
+}
+
+.acessi{
+    width: 627px;
+    height: 55px;
+    margin-top: 50px;
+    margin-right: 16px;
+    float: left;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.acessi p{
+    margin: 0;
+}
+.acessi h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+
+    color: #4361EE;
+    margin: 0;
+}
+.radio{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.radio label{
+    padding-top: 10px;
+}
+.radio input{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    float: left;
+}
+.radio p{
+    min-width: 95px;
+    float: left;
+}
+.marginRadio{
+    width: 52px;
+    height: 1px;
+    float: left;
+}
+.horario{
+    width: 318px;
+    height: 55px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 5px 0 0 5px;
+    padding-left: 22px;
+    float: left;
+
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    text-align: left;
+    letter-spacing: -0.015em;
+}
+.svghora{
+    width: 55px;
+    height: 55px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 0 5px 5px 0;
+    float: left;
+}
+.svghora svg{
+    width: 18px;
+    height: 19px;
+    margin: 18px;
+}
+.altcada button{
+    width: 1023px;
+    height: 55px;
+    margin-top: 58px;
+    border: 1px transparent;
+    box-sizing: border-box;
+    background: #4361EE;
+    border-radius: 100px;
+    outline: none;
+
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}

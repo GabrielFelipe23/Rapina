@@ -1,0 +1,155 @@
+@import url('global.css');
+html{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(46.34deg, #FDD9D9 21.61%, #FEE7E8 42.71%, #DBF5FE 80.6%, #DBF7F5 97.23%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
+#container-landing{
+    max-width: 1150px;
+    margin:auto;
+    background-image: url(../images/dialog-box.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 18%;
+}
+.form-contact .user-icon, .subject-icon{
+    width:10%;
+    height:100%;
+    float:left;
+    background:#fff;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.form-contact img, svg{
+   margin:10px 0 0 15px;
+}
+.form-container .form-doubt{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    margin:77px 0;
+}
+.form-container .form-doubt .form-content{
+    padding:2rem;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius:25px;
+    width:500px;
+    background: rgba(255, 255, 255, 0.4);
+}
+.form-container .form-doubt .form-content section{
+    margin:25px 0;
+}
+.form-container .form-contact{
+    padding:1.5rem;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius:25px;
+    width:400px;
+    background: rgba(255, 255, 255, 0.4)
+}
+.form-container .form-doubt .form-content h2{
+    color: rgba(67, 97, 238, 1);
+    margin:30.17px 0;
+}
+.form-container .form-doubt .form-content p{
+    margin-top:16.38px;
+    color: rgba(130, 130, 130, 1);
+}
+.form-container .form-contact form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-container .form-contact h2{
+    margin:20px 0;
+    color: rgba(45, 45, 45, 1);
+}
+.form-container .form-contact form .input-field{
+    position:relative;
+    width:100%;
+    margin-bottom:1.5rem;
+    background:#fff;
+    border:0;
+}
+.form-container .form-contact form .input-field input::placeholder{
+    color:rgba(0,0,0,0.3);
+}
+.form-container .form-contact form .input-field input{
+    width:90%;
+    padding:9px 15px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border:0;
+    float:right;
+}
+.form-container .form-contact form .textarea-field, textarea{
+    width:100%;
+    border:0;
+}
+.form-container .input-field:hover, textarea:focus{
+    outline:0;
+    box-shadow: 0 0 10px #9ecaed;
+    transition:box-shadow 250ms
+}
+.form-container .form-contact form textarea{
+    border:1px solid #ccc;
+    border-radius:3px;
+    padding:8px;
+    border:0;
+}
+.form-container .form-contact form textarea::placeholder{
+    color:rgba(0,0,0,0.3);
+}
+.form-container .form-contact form .submit-block{
+    margin:1.8rem;
+    width:100%;
+    background: rgba(67, 97, 238, 1);
+    border-radius:100px;
+    border:0;
+    cursor:pointer;
+}
+.form-container .form-contact form .submit-block:hover{
+    filter:brightness(0.9);
+    transition:filter 200ms;
+}
+.form-container .form-contact form .submit-block input{
+    width:100%;
+    padding:9px 15px;
+    background: rgba(67, 97, 238, 1);
+    border-radius:100px;
+    border:0;
+    color:#fff;
+    cursor:pointer;
+    font-size:15px;
+}
+.triangle-image{
+    background-image: url(../images/green-triangle.png);
+    background-repeat: no-repeat;
+}
+.espiral-image{
+    background-image: url(../images/esmola.png);
+    background-repeat: no-repeat;
+    background-position: left 110%;
+    background-size: 20%;
+}
+.ring-image{
+    background-image: url(../images/ring.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18%;
+}
+.ball-image{
+    background-image: url(../images/orange-ball.png);
+    background-repeat: no-repeat;
+    background-position: 97% bottom;
+}
+.message-image{
+    background-image: url(../images/orange-ball.png);
+    background-repeat: no-repeat;
+    background-position: 60% top;
+}
+

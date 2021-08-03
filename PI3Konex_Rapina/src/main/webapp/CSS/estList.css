@@ -1,0 +1,164 @@
+@import url('global.css');
+
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container-landing .menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    margin: 0;
+    position: relative;
+}
+
+#container-landing .establishments{
+    padding:74px 0;
+}
+#container-landing .background-color{
+    background: rgba(67, 97, 238, 1);
+}
+#container-landing .margin{
+    max-width:1150px;
+    margin:auto;
+}
+#container-landing .establishments p, h1{
+    color: rgba(237, 242, 244, 1);
+}
+#container-landing .menu-bar ul .bar{
+    width:35px;
+    height:2px;
+    margin-bottom:11px;
+    border-radius:50px;
+    background:#fff;
+}
+#container-landing .establishments .security-search{
+    width:537px;
+    margin-left:0;
+}
+.establishments .security-search p{
+    font-size:14px;
+    margin-bottom:3px;
+    color:#808080;
+}
+.establishments .security-search h1{
+    font-size:40px;
+}
+#container-landing .sort-button p{
+    display:inline;
+    background: rgba(78, 186, 181, 1);
+    color:#fff;
+    padding:5px 40px;
+    border-radius:100px;
+    margin-right:9px;
+}
+#container-landing .sort-button{
+    margin:99px 0 121px 0;
+}
+#container-landing .sort-button button{
+    background: rgba(238, 125, 20, 1);
+    padding:5px 9px;
+    border-radius:100px;
+}
+#container-landing .sort-button button img{
+    width:9px;
+    margin:2px 0;
+}
+#container-landing .list-est{
+    max-width:1143px;
+    margin:99px auto 87px auto;
+}
+#container-landing .more-store button{
+    width:100%;
+    padding:9px 15px;
+    background: rgba(67, 97, 238, 1);
+    color:#fff;
+    border-radius:5px;
+    border: 1px solid rgba(130, 130, 130, 1)
+}
+
+.cartao{
+    width: 361px;
+    height: 295px;
+    margin: 10px;
+    padding: 50px 45px;
+    background: #fff;
+    border-radius: 33px;
+    box-shadow: 5px 5px 25px rgba(67, 97, 238, 0.15);
+    float: left;
+}
+.cartao h1{
+    text-align: center;
+    margin-bottom: 23px;
+    color: #000;
+}
+.cartao p{
+    margin: 0;
+    float: left;
+}
+#estrela svg, #estrela path{
+    float: left;
+    margin-top: 2px;
+    margin-right: 7px;
+    fill: #FFD600;
+}
+
+#cap svg, #cap path{
+    margin-top: 2px;
+    margin-left: 60px;
+    margin-right: 7px;
+    float: left;
+    fill: #000;
+}
+.acessi{
+    float: left;
+    margin-left: 49px;
+}
+
+#mostrar{
+    display: none;
+}
+#passar_mouse:hover #mostrar{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    color: #D9D9D9;
+}
+
+#mostrar2{
+    display: none;
+}
+#passar_mouse:hover #mostrar{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    color: #D9D9D9;
+}
+#passar_mouse2:hover #mostrar2{
+    display: block;
+    color: #D9D9D9;
+    color: #000;
+}
+
+.Reservar{
+    width: 142px;
+    height: 39px;
+    padding-top: 7px;
+    margin: 254px auto 0 108px;
+    background: #FFD600;
+    border-radius: 100px;
+    clear: both;
+}
+.Reservar p{
+    width: 142px;
+    text-align: center;
+    font-size: 20px;
+}

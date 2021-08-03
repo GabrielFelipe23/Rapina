@@ -1,0 +1,108 @@
+@import url('global.css');
+html{
+    height: 100%;
+}
+body{
+    background: linear-gradient(70rad, #94B4D1, #CCDCEB);
+}
+#container-landing .principle-page{
+    max-width:1150px;
+    margin:0 auto;
+    position:relative;
+}
+#container-landing .principle-page .image-saly{
+    position:absolute;
+    left:0;
+    bottom:0;
+    position: relative;
+    width:540px;
+}
+#container-landing .principle-page .image-saly img{
+    width:500px;
+    height:500px;
+    position:absolute;
+    right:0;
+}
+#container-landing .menu-bar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#container-landing .menu-bar img{
+    margin-top:33px;
+    width:120px;
+    border-radius:6px;
+}
+#container-landing .form-container h3{
+    font-weight:500;
+    margin-top:1rem;
+    color: rgba(45, 45, 45, 1);
+
+}
+#container-landing .form-container{
+    border-radius:30px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    margin: 20vh auto;
+    padding:3rem;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    max-width:400px;
+    text-align: center;
+    background:rgba(255, 255, 255, 0.1);
+}
+#container-landing .form-container form{
+    margin-top:1.5rem;
+    width:100%;
+}
+#container-landing .form-container .input-field{
+    position:relative;
+}
+#container-landing .form-container .input-field img{
+    position:absolute;
+    right:14px;
+    top:7px;
+}
+#container-landing .form-container .input-field input:focus{
+   box-shadow: 0 0 1em 1px rgba(0 ,0 ,0, 0.07);
+   -moz-box-shadow: 0 0 1em 1px rgba(0 ,0 ,0, 0.07);
+   -webkit-box-shadow: 0 0 1em 1px rgba(0 ,0 ,0, 0.07);
+}
+#container-landing .form-container .input-field{
+     margin:1rem 0 2rem 0;
+}
+#container-landing .form-container .input-field input, input[type="submit"]{
+    width:100%;
+    padding:9px 15px;
+    outline:0;
+    border-radius:5px;
+    border:0;
+}
+.form-container .input-field input::placeholder{
+    color:rgba(0,0,0,0.4);
+    font-size:15px;
+}
+.form-container .submit-block input[type="submit"]{
+    cursor:pointer;
+    background:#4361EE;
+    color:#fff;
+    border-radius:30px;
+    font-size:16px;
+}
+.form-container .submit-block input[type="submit"]:hover{
+    outline:0;
+    box-shadow:none;
+    filter:brightness(0.9);
+    transition:filter  200ms, letter-spacing 250ms;
+    letter-spacing:0.7px;
+}
+#container-landing footer{
+    margin-top:32px;
+}
+#container-landing footer a strong{
+    color:#2D2D2D;
+}
+
+
+

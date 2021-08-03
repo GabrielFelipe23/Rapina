@@ -1,0 +1,179 @@
+@import 'globalRubens.css';
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #fff;
+    color:#000;
+    margin: 0;
+}
+.todo{
+    margin-top: 90px;
+    width: 1070px;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 52px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px 7px rgba(0, 0, 0, 0.08);
+    border-radius: 25px;
+}
+.link{
+    width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+    border: 1px solid #fff;
+    clear:both;
+}
+
+.link a:link, 
+      a:hover, 
+      a:visited{
+    text-decoration: none;
+    color: #000;
+}
+.link svg{
+    margin-top: 10px;
+    margin-right: 5px;
+    float: left;
+}
+.link p{
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+
+    color: #2D2D2D;
+}
+.circulo{
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    margin-bottom: 63px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    float: left;
+}
+.nomepla{
+    width: 297px;
+    margin-top: 41px;
+    margin-bottom: 1px;
+    float: left;
+}
+.nomepla h1{
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 57px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.nomepla a{
+    margin: 0;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #006CE5;
+}
+.infos{
+    margin-left: 45px;
+    margin-top: 41px;
+    margin-bottom: 1px;
+    float: left;
+}
+.infos h1{
+    margin: 1px;
+
+   font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.infos p{
+    margin: 1px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    letter-spacing: -0.015em;
+    float: left;
+}
+#status{ 
+    color: #49D983;
+}
+#nextData{
+    margin-left: 50px;
+}
+.beneficios{
+    height: 60px;
+    margin-top: 63px;
+    clear: both;
+}
+.beneficios h3{
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+.beneficios p{
+    background: #4361EE;
+    border-radius: 100px;
+    margin: 3px;
+    float: left;
+    height: 33px;
+    padding-top: 7px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+#alt{
+    width: 162px;
+    
+}
+#res{
+    width: 182px;
+}
+#libfav{
+    width: 184px;
+}
+#doa{
+    width: 193px;
+}
+#libcon{
+    width: 233px;
+}
+
+a:link,
+a:hover,
+a:active,
+a:visited{
+    text-decoration: none;
+}
